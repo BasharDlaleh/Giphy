@@ -1885,9 +1885,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
-    this.loadGifs();
+    this.loadGifs(); // load trending GIFs at start up
   },
   computed: {
     getGifs: function getGifs() {
@@ -1909,6 +1915,7 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   methods: {
+    // load trending GIFs
     loadGifs: function loadGifs() {
       var _this = this;
 
@@ -1916,6 +1923,7 @@ __webpack_require__.r(__webpack_exports__);
         _this.gifs = response.data.data;
       });
     },
+    // search GIFs
     searchGifs: function searchGifs() {
       var _this2 = this;
 
@@ -1926,10 +1934,12 @@ __webpack_require__.r(__webpack_exports__);
         _this2.currentPage = 1;
       });
     },
+    // get the GIF URL from the returned GIFs JSON data for each table cell 
     calcGifIndex: function calcGifIndex(rowIndex, colIndex) {
       var index = rowIndex * 6 + colIndex;
       return this.getGifs[index].images.downsized.url;
     },
+    // load GIF results for the selected search page
     loadMoreResults: function loadMoreResults(e) {
       var _this3 = this;
 
@@ -6484,7 +6494,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.active[data-v-798c459a]{\n  background-color: blue;\n  cursor: auto;\n  pointer-events:none;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* a class to disable the currently active page link */\n.active[data-v-798c459a]{\n  background-color: blue;\n  cursor: auto;\n  pointer-events:none;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37668,7 +37678,7 @@ var render = function() {
                       staticClass: "btn btn-primary",
                       attrs: { type: "submit", id: "basic-addon2" }
                     },
-                    [_vm._v("search Gifs")]
+                    [_vm._v("search GIFs")]
                   )
                 ])
               ]
@@ -37751,7 +37761,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "card-header" }, [
-      _c("b", [_vm._v("Trending Gifs")])
+      _c("b", [_vm._v("Trending GIFs")])
     ])
   },
   function() {
