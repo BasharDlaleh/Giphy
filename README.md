@@ -1,22 +1,20 @@
 ######### How to install the project #########
 
-1. clone the project from 
+1. clone the project from https://github.com/BasharDlaleh/Giphy.git
 
-2. run "cd /you_project_path/" in your terminal
+2. run this in your terminal "cd /your_project_path/" 
 
-3. run "composer install" in your terminal
+3. run this in your terminal "composer install"  (use a proxy if you are in Syria)
 
-4. run "npm install" in your terminal
+4. run this in your terminal "npm install"
 
-5. run "npm run dev" in your terminal
+5. inside the project open .env file and change the "DB_DATABASE" to the absolute path to the database file in your machine "/your_project_path/database/database.sqlite"
 
-6. inside the project open .env file and set the DB_DATABASE to the absolute path to the database file in your machine "/you_project_path/database/database.sqlite"
+6. run this in your terminal "php artisan migrate"
 
-7. run "php artisan migrate" in your terminal 
+7. run this in your terminal "php artisan serve"
 
-8. run "php artisan serve" in your terminal
-
-9. you can now access the app in the browser at "http://localhost:8000"
+8. you can now access the app in the browser at "http://localhost:8000"
 
 ######### How does it work #########
 
