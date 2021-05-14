@@ -93,9 +93,10 @@
             },
 
             // get the GIF URL from the returned GIFs JSON data for each table cell 
-            calcGifIndex(rowIndex, colIndex){
-               let index = rowIndex * 6 + colIndex
-               return this.getGifs[index].images.downsized.url
+            calcGifIndex(rowIndex, colIndex){ 
+               let index = rowIndex * 6 + colIndex;
+              if(this.gifs[index])
+               return this.getGifs[index].images.downsized.url; 
             },
 
             // load GIF results for the selected search page
