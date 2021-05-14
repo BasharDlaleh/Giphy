@@ -46,8 +46,12 @@
 
 - the main controller for the GIFs is "/your_project_path/app/Http/Controllers/API/GifsController.php" .
 
-- "/your_project_path/app/Services/GifsService.php" is a Service class which includes all the calls to the external GIFs API so that if we wanna change the API provider we need to make changes to this class only .
+- "/your_project_path/app/Services/GifsService.php" is a Service class which includes all the calls to the external GIFs API so that if we wanna change the API provider we need to make changes to this class only ( of course for more complex design we could use interfaces ) .
 
-- For the front-end , we have one vue component "/your_project_path/resources/js/components/GifsComponent.vue"
+- For the front-end , we have one Vue component "/your_project_path/resources/js/components/GifsComponent.vue"
+
+- The Auth system is the well known Laravel ui system .
+
+- There are two endpoints in the project , you can find them in "/your_project_path/routes/api.php" .
 
 - I haven't set an API authentication mechanism (token, JWT,..) because i didn't see it necessary . 
