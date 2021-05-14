@@ -46,7 +46,7 @@
 
 - the main controller for the GIFs is "/your_project_path/app/Http/Controllers/API/GifsController.php" .
 
-- "/your_project_path/app/Services/GifsService.php" is a Service class which includes all the calls to the external GIFs API so that if we wanna change the API provider we need to make changes to this class only .
+- "/your_project_path/app/Services/GifsService.php" is a Service class which includes all the calls to the external GIFs API so that if we wanna change the API provider we need to make changes to this class only ( of course for more complex design we could use interfaces ) .
 
 - For the front-end , we have one Vue component "/your_project_path/resources/js/components/GifsComponent.vue"
 
