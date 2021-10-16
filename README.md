@@ -4,7 +4,7 @@
 
 2. run this in your terminal "cd /your_project_path/" 
 
-3. run this in your terminal "composer install"  (use a proxy if you are in Syria)
+3. run this in your terminal "composer install"
 
 4. run this in your terminal "npm install"
 
@@ -51,7 +51,3 @@
 - For the front-end , we have one Vue component "/your_project_path/resources/js/components/GifsComponent.vue"
 
 - The Auth system is the well known Laravel ui system .
-
-- There are two endpoints in the project , you can find them in "/your_project_path/routes/api.php" .
-
-- I haven't set an API authentication mechanism (token, JWT,..) because i didn't see it necessary . 
