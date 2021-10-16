@@ -1,5 +1,3 @@
-######### How to install the project #########
-
 1. clone the project from https://github.com/BasharDlaleh/Giphy.git
 
 2. run this in your terminal "cd /your_project_path/" 
