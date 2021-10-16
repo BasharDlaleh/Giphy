@@ -1,3 +1,7 @@
+## This project is a GIF browser app that fetches GIFs from an external API and let you browse and search them
+
+######### How to install #########
+
 1. clone the project from https://github.com/BasharDlaleh/Giphy.git
 
 2. run this in your terminal "cd /your_project_path/" 
